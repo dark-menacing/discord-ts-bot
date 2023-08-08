@@ -1,4 +1,4 @@
-# discord.ts-bot
+# discord-ts-bot
 [![License](https://img.shields.io/badge/License-MIT-blue)](LICENSE)
 [![Version Support](https://img.shields.io/node/v/discord.js)](https://www.npmjs.com/package/discord.js#installation)
 
