@@ -6,3 +6,7 @@
 My first TS discord bot.
 
 Shoutout to discord.js for making this possible, check out their [site](https://discord.js.org) out!
+
+## Commands
+
+`/ping`: Replies with your current ping.
