@@ -7,7 +7,7 @@ export default new Event({
     run() {
         const {commands} = client
 
-        console.log(`${client.user?.tag} is ready to be used!`);
-        console.log(`${commands.size} Commands Loaded.`);
+        console.log(`${client.user?.tag} is ready to be used!`.green);
+        console.log(`${commands.size} Commands Loaded.`.cyan);
     },
 })
