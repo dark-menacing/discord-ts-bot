@@ -10,17 +10,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DarkMenacingRBX/discord-ts-bot.git"
+    "url": "git+https://github.com/dark-menacing/discord-ts-bot.git"
   },
   "keywords": [
     "discord-bot",
     "discord",
     "typescript"
   ],
-  "author": "darkmenacing",
+  "author": "dark-menacing",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/DarkMenacingRBX/discord-ts-bot/issues"
+    "url": "https://github.com/dark-menacing/discord-ts-bot/issues"
   },
   "homepage": "https://github.com/DarkMenacingRBX/discord-ts-bot#readme",
   "devDependencies": {
