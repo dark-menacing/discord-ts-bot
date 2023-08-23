@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/DarkMenacingRBX/discord-ts-bot#readme",
   "devDependencies": {
-    "discord.js": "^14.12.1",
+    "discord.js": "^14.13.0",
     "ts-node": "^10.9.1",
     "typescript": "^5.1.6"
   },
