@@ -4,6 +4,7 @@ import { Command } from "../../structs/types/command";
 
 export default new Command({
     name: "ban",
+    dmPermission: false,
     type: ApplicationCommandType.ChatInput,
     description: "Bans a user",
     options: [
@@ -28,6 +29,14 @@ export default new Command({
 
         const {members: memberManager} = guild;
 
+        if (!interaction.member.permissions.has("BanMembers")) {
+            interaction.reply({
+                content: "You can't ban members.",
+                ephemeral: true,
+            });
+            return;
+        }
+
         const embed = new EmbedBuilder()
         .setTitle('User Banned!')
         .setDescription(`User ${user} has been banned by ${interaction.user}, by the following reason: ${reason}`)
@@ -46,7 +55,7 @@ export default new Command({
             name: "craig tucker",
             iconURL: interaction.user.avatarURL() || undefined,
         })
-        .setTimestamp();;
+        .setTimestamp();
 
         (await user.createDM()).send({embeds: [DMEmbed]});
         await memberManager.ban(user.id, {reason});
