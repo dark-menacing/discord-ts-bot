@@ -16,7 +16,7 @@ jobs:
     - name: Node.js v20
       uses: actions/setup-node@v3
       with:
-        node-version: 20.x
+        node-version: 20
         cache: 'npm'
       env:
         Token: ${{secrets.TOKEN}}
