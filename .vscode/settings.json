@@ -1,0 +1,4 @@
+{
+    "npm.enableRunFromFolder": true,
+    "typescript.suggest.objectLiteralMethodSnippets.enabled": true
+}
