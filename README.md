@@ -11,5 +11,5 @@ Shoutout to discord.js for making this possible, check out their [site](https://
 ## Commands
 
 `/ping`: Replies with your current ping.  
-`/ban`: Bans a user.
+`/ban`: Bans a user.  
 `/unban`: Unbans a user.
